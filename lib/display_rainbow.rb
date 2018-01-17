@@ -2,6 +2,7 @@
 def display_rainbow(colors)
   s  = ''
   for i in colors do
-    print i.chars.first.capitalize + ": " + i + ", "
+    s += i.chars.first.capitalize + ": " + i + ", "
+    #print i.chars.first.capitalize + ": " + i + ", "
   end
 end
