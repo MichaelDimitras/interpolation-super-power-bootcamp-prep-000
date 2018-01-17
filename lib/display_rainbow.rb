@@ -4,7 +4,5 @@ def display_rainbow(colors)
   for i in colors do
     s += i.chars.first.capitalize + ": " + i + ", "
     #print i.chars.first.capitalize + ": " + i + ", "
-  end
-  s = s[0...-2]
-  puts s
+  puts s[0...20]
 end
