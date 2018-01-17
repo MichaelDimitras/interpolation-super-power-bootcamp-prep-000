@@ -1,9 +1,9 @@
 # Write your #display_rainbow method here
 def display_rainbow(colors)
-s  = ''
+  s  = ''
   for i in colors do
     s += i.chars.first.capitalize + ": " + i + ", "
   end
 
-puts s[0...-2]
+  puts s[0...-2]
 end
