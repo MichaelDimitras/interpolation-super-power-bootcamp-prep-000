@@ -6,5 +6,5 @@ def display_rainbow(colors)
   end
 
   s = s[1...-2]
-  print "R + #{s}"
+  print "R#{s}"
 end
