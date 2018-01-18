@@ -1,10 +1,4 @@
 # Write your #display_rainbow method here
 def display_rainbow(colors)
-  s  = ""
-  for i in colors do
-    s += i.chars.first.capitalize + ": " + i + ", "
-  end
-
-  s = s[0...-2]
-  puts s
+  s  = "R: #{colors[0]}, O: #{colors[1]}, Y: #{colors[2]}, G: #{colors[3]}, B: #{colors[4]}, I: #{colors[5]}, V: #{colors[6]}"
 end
