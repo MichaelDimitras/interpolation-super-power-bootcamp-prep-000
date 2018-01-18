@@ -6,5 +6,5 @@ def display_rainbow(colors)
   end
 
   s = s[1...-2]
-  puts s
+  puts "R#{my_height}"
 end
