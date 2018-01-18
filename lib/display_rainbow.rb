@@ -5,5 +5,5 @@ def display_rainbow(colors)
     s += i.chars.first.capitalize + ": " + i + ", "
   end
 
-  print "R" + s[1...-2]
+  print ("R" + s[1...-2])
 end
